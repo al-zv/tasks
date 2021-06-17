@@ -21,5 +21,6 @@ $point->y3 = 1;
 
 //вычисление  расстояния между двумя точками пространства и вывод оператором echo
 $distance = sqrt( ($point->y1 - $point->x1) ** 2 + ($point->y2 - $point->x2) ** 2 + ($point->y3 - $point->x3) ** 2);
-
+echo "<br />";
+echo "<br />";
 echo $distance;
